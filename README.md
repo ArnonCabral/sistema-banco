@@ -1,77 +1,55 @@
-# 💳 Sistema Bancário - React + TypeScript + Tailwind CSS
+# 💻 Sistema Bancário - Teste Prático de Frontend
 
-Este projeto é uma aplicação web desenvolvida como desafio prático de front-end. Ele exibe dados de clientes, contas bancárias e agências, com foco em acessibilidade, performance, responsividade e boas práticas de desenvolvimento moderno usando **React + Vite + TypeScript**.
-
----
-
-## 📌 Funcionalidades Principais
-
-- ✅ Listagem paginada de clientes com filtro por nome e CPF/CNPJ
-- ✅ Exibição detalhada de cliente com:
-  - Informações pessoais completas (nome, RG, CPF, nome social, nascimento, endereço, estado civil etc.)
-  - Contas bancárias com dados de saldo, limite e crédito disponível
-  - Agência vinculada
-- ✅ Sistema de retorno à página anterior sem perder a navegação (mantém a página atual)
-- ✅ Responsividade total em todas as telas
-- ✅ Acessibilidade com suporte a leitores de tela
-- ✅ Dados consumidos diretamente via API CSV do Google Sheets
-- ✅ Performance otimizada com carregamento rápido
+Este é um projeto de teste prático para vaga de estágio na área de Frontend. O sistema simula um ambiente bancário, com listagem de clientes, exibição de dados pessoais e contas bancárias, com foco em **acessibilidade**, **responsividade**, **boas práticas** e **performance**.
 
 ---
 
-## 🧪 Testes de Qualidade com Lighthouse
+## 🌐 Acesse o sistema
 
-O projeto foi testado com a ferramenta **Lighthouse** e obteve os seguintes resultados:
-<<<<<<< HEAD
- 
-| Métrica             |Nota|
-|---------------------|----|
-| ⚡ Performance      |83|
-| ♿ Acessibilidade   |100|
-| ✅ Boas Práticas    |78|
-| 🔍 SEO              |82|
-=======
+- 🔗 **Link do projeto hospedado na Netlify:**  
+  [https://sistema-bancario-arnon.netlify.app](https://sistema-bancario-arnon.netlify.app)
 
-| Métrica           | Nota |
-|--------------------------
-| ⚡ Performance    | 83  |
-| ♿ Acessibilidade | 100 |
-| ✅ Boas Práticas  | 78  |
-| 🔍 SEO            | 82  |
->>>>>>> c695213845a449e7618df987c6f1a79b75640820
-
-📄 Detalhes disponíveis no arquivo [`Lighthouse.pdf`](./Ligthhouse.pdf)
+- 🔗 **Repositório no GitHub:**  
+  [https://github.com/ArnonCabral/sistema-banco](https://github.com/ArnonCabral/sistema-banco)
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 🧰 Tecnologias Utilizadas
 
-- [React 18](https://react.dev/)
+- [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [PapaParse](https://www.papaparse.com/) para leitura de CSV
-- [Google Sheets](https://docs.google.com/spreadsheets/) como fonte de dados simulada (API)
+- [Netlify](https://www.netlify.com/) para deploy
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) para auditoria de qualidade
 
 ---
 
-## 🧭 Estrutura de Pastas
+## 📁 Funcionalidades
 
+- ✅ Listagem de clientes com paginação e filtro por nome/CPF.
+- ✅ Visualização de detalhes completos do cliente: ID, Nome Social, CPF/CNPJ, RG, Data de Nascimento, Endereço, Email, Renda Anual, Patrimônio, Estado Civil.
+- ✅ Exibição de contas bancárias e agência relacionada.
+- ✅ Projeto responsivo e acessível.
+- ✅ Deploy realizado com sucesso no Netlify.
+
+---
+
+## 📈 Resultados da Auditoria
+
+O sistema foi testado com o Lighthouse e obteve os seguintes resultados:
+
+- ⚡ **Performance**: 83  
+- ♿ **Acessibilidade**: 100  
+- ✅ **Boas Práticas**: 78  
+- 🔍 **SEO**: 82  
+
+📄 [Relatório Lighthouse (PDF)](./docs/Lighthouse.pdf)
+
+---
+
+## 🧪 Como executar o projeto localmente
+
+1. Clone o repositório:
 ```bash
-📦 src
-<<<<<<< HEAD
- ┣ 📂components          # Componentes reutilizáveis (Lista, Detalhes)
- ┣ 📂services            # Funções de leitura e parse de CSV
- ┣ 📂types               # Definições de tipos TypeScript
- ┣ 📄 App.tsx            # Arquivo principal
- ┣ 📄 main.tsx           # Ponto de entrada
- ┣ 📄 index.css          # Estilos globais
-=======
- ┣ 📂components        # Componentes reutilizáveis (Lista, Detalhes)
- ┣ 📂services          # Funções de leitura e parse de CSV
- ┣ 📂types             # Definições de tipos TypeScript
- ┣ 📄 App.tsx             # Arquivo principal
- ┣ 📄 main.tsx            # Ponto de entrada
- ┣ 📄 index.css           # Estilos globais
->>>>>>> c695213845a449e7618df987c6f1a79b75640820
-
+git clone https://github.com/ArnonCabral/sistema-banco.git
