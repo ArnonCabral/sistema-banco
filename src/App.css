@@ -1,42 +1,52 @@
+/* 🔽 Estiliza o elemento com id="root" (container principal da aplicação) */
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  max-width: 1280px;       /* Limita a largura máxima para evitar que estique demais em telas grandes */
+  margin: 0 auto;           /* Centraliza horizontalmente */
+  padding: 2rem;            /* Espaçamento interno (padding) de 2 unidades rem */
+  text-align: center;       /* Centraliza o texto */
 }
 
+/* 🔽 Estilização do logo */
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  height: 6em;              /* Altura do logo */
+  padding: 1.5em;           /* Espaçamento interno */
+  will-change: filter;      /* Otimização para indicar ao navegador que o filtro pode mudar */
+  transition: filter 300ms; /* Suaviza a mudança do filtro em 300 milissegundos */
 }
 
+/* 🔽 Efeito de sombra quando passa o mouse no logo padrão */
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);  /* Aplica sombra azulada */
+}
+
+/* 🔽 Sombra específica para o logo do React */
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);  /* Sombra na cor da logo do React */
+}
+
+/* 🔽 Animação de rotação contínua do logo */
 @keyframes logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg);     /* Começa sem rotação */
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg);   /* Termina com rotação completa (círculo) */
   }
 }
 
+/* 🔽 Aplica a animação no segundo link com logo, se o usuário permitir animações */
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+    animation: logo-spin infinite 20s linear; /* Gira o logo continuamente a cada 20 segundos */
   }
 }
 
+/* 🔽 Estilização de um card genérico */
 .card {
-  padding: 2em;
+  padding: 2em; /* Espaço interno */
 }
 
+/* 🔽 Estilização de um texto de documentação */
 .read-the-docs {
-  color: #888;
+  color: #888; /* Cinza claro */
 }

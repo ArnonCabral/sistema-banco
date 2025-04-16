@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ✅ Importa os estilos base do Tailwind (reset de CSS, tipografia, etc.) */
+/* ✅ Importa componentes pré-definidos do Tailwind como botões, cards, formulários etc. */
+/* ✅ Importa todas as classes utilitárias (como p-2, text-center, bg-blue-500, etc.) */
