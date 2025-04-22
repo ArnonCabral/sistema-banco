@@ -1,6 +1,6 @@
-# 💻 Sistema Bancário - Teste Prático de Frontend
+# 💻 Sistema Bancário - Frontend
 
-Este é um projeto de teste prático para vaga de estágio na área de Frontend. O sistema simula um ambiente bancário, com listagem de clientes, exibição de dados pessoais e contas bancárias, com foco em **acessibilidade**, **responsividade**, **boas práticas** e **performance**.
+O sistema simula um ambiente bancário, com listagem de clientes, exibição de dados pessoais e contas bancárias, com foco em **acessibilidade**, **responsividade**, **boas práticas** e **performance**.
 
 ---
 
